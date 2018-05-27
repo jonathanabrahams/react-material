@@ -5,7 +5,7 @@ import './Counter'
 
 const Counter = ({ value, onInc, onDec }) => (
     <div className="counter">
-        <div className="counter__value">Value: {value}</div>
+        <div className="counter__value">Value = {value}</div>
         <button className="counter__action counter__action--increment" onClick={onInc}>+</button>
         <button className="counter__action counter__action--decrement" onClick={onDec}>-</button>
     </div>
