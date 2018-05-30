@@ -1,6 +1,28 @@
 .counter {
     color: white;
     background: {
-        color: blue;
+        color: green;
+    }
+    &__value {
+        &--negative {
+            color:red;
+        }
+    }
+    &__action {
+        &--increment {
+            width: 2em;
+            height: 2em;
+            background: {
+                color: red
+            }
+        }
+        &--decrement {
+            width: 2em;
+            height: 2em;
+            color: white;
+            background: {
+                color: blue
+            }
+        }
     }
 }

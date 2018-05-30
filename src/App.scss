@@ -1,8 +1,9 @@
+@import "./components/material/_index.scss";
 @import "./components/_counter.scss";
 body {
     margin: 0px;
     padding: 0px;
     background: {
-        color:blue;
+        color:white;
     }
 }
